@@ -10,10 +10,14 @@ function Header({ logo }: Props) {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
   return (
-    <header className="w-full p-4">
+    <header className="w-full py-4 px-2">
       <div className="container flex justify-between items-center max-w-5xl mx-auto">
         <div className="flex gap-2">
-          <img src={logo} alt="ghost" className="w-10 h-10" />
+          <img
+            src={logo}
+            alt="logo image of a black cat"
+            className="w-10 h-10"
+          />
           <span className="font-bold text-3xl">nielsero</span>
         </div>
 
@@ -37,8 +41,8 @@ function Header({ logo }: Props) {
         <div
           className={
             isNavOpen
-              ? "fixed left-0 md:left-[-100%] top-0 w-[85%] ease-in-out duration-500 p-4 bg-white"
-              : "fixed left-[-100%] top-0 ease-in-out duration-500 p-4"
+              ? "fixed left-0 md:left-[-100%] top-0 w-[90%] ease-in-out duration-500 py-4 px-2 bg-white"
+              : "fixed left-[-100%] top-0 ease-in-out duration-500 py-4 px-2"
           }
         >
           <div className="flex gap-2">
