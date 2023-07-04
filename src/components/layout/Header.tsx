@@ -1,9 +1,12 @@
 import { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
-import Link from "./Link"
-import logo from "../assets/black-cat.png"
+import Link from "../common/Link"
 
-function Header() {
+type Props = {
+  logo: string
+}
+
+function Header({ logo }: Props) {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
   return (
