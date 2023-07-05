@@ -32,7 +32,7 @@ function Header({ logo, flag }: Props) {
 
         <nav className="hidden md:flex gap-7">
           <Link href="#">About</Link>
-          <Link href="#">Projects</Link>
+          <Link href="#projects">Projects</Link>
           <Link href="#">Contact</Link>
         </nav>
 
@@ -65,7 +65,7 @@ function Header({ logo, flag }: Props) {
 
           <nav className="flex flex-col pl-3 mt-4 gap-3">
             <Link href="#">About</Link>
-            <Link href="#">Projects</Link>
+            <Link href="#projects">Projects</Link>
             <Link href="#">Contact</Link>
           </nav>
         </div>
