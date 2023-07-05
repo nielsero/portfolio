@@ -5,6 +5,7 @@ import Contact from "./components/layout/Contact"
 import Footer from "./components/layout/Footer"
 import Skills from "./components/layout/Skills"
 import blackCatImage from "./assets/black-cat.png"
+import mozFlag from "./assets/mozambique.png"
 import devImage from "./assets/app-dev.jpg"
 import githubImage from "./assets/github.png"
 import tsImage from "./assets/typescript.png"
@@ -33,7 +34,7 @@ const images = [
 function App() {
   return (
     <>
-      <Header logo={blackCatImage} />
+      <Header logo={blackCatImage} flag={mozFlag} />
       <Hero heroImage={devImage} />
       <Skills images={images} />
       <Projects />
