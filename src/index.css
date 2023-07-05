@@ -34,6 +34,10 @@
   width: calc(250px * 20);
 }
 
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
 @media screen and (min-width: 768px) {
   .slider::before,
   .slider::after {
