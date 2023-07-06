@@ -17,8 +17,11 @@ import pythonImage from "./assets/python.png"
 import nodeExpressImage from "./assets/node_express.jfif"
 import mysqlImage from "./assets/mysql.png"
 import mongoImage from "./assets/mongo.png"
+import portfolioSiteImage from "./assets/portfolio_site.png"
+import weatherAppImage from "./assets/weather_app.png"
+import rpsAppImage from "./assets/rock_paper_scissors_app.png"
 
-const images = [
+const skills = [
   { src: githubImage, alt: "GitHub" },
   { src: tsImage, alt: "TypeScript" },
   { src: jsImage, alt: "JavaScript" },
@@ -31,13 +34,41 @@ const images = [
   { src: mongoImage, alt: "MongoDB" }
 ]
 
+const projects = [
+  {
+    name: "Portfolio",
+    src: portfolioSiteImage,
+    alt: "Portfolio site",
+    description: "The place to showcase my skills and projects. (this site 😂)",
+    previewLink: "#",
+    githubLink: "#"
+  },
+  {
+    name: "Weatherly",
+    src: weatherAppImage,
+    alt: "Weather app",
+    description:
+      "A weather app that displays the current weather for a given location.",
+    previewLink: "#",
+    githubLink: "#"
+  },
+  {
+    name: "Rock Paper Scissors",
+    src: rpsAppImage,
+    alt: "Rock Paper Scissors app",
+    description: "A simple rock paper scissors game vs the computer.",
+    previewLink: "#",
+    githubLink: "#"
+  }
+]
+
 function App() {
   return (
     <>
       <Header logo={blackCatImage} flag={mozFlag} />
       <Hero heroImage={devImage} />
-      <Skills images={images} />
-      <Projects />
+      <Skills images={skills} />
+      <Projects projects={projects} />
       <Contact />
       <Footer />
     </>

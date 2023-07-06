@@ -6,7 +6,7 @@ type Props = {
 function Link({ href, children }: Props) {
   return (
     <a
-      className="py-2 md:px-1 border-b-2 border-transparent md:hover:border-black text-blue-600"
+      className="py-2 md:px-1 border-b-2 border-transparent md:hover:border-black text-sky-800"
       href={href}
     >
       {children}
