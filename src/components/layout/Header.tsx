@@ -11,7 +11,7 @@ function Header({ logo, flag }: Props) {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false)
 
   return (
-    <header className="w-full py-4 px-2">
+    <header className="w-full py-4 px-2 bg-[#eeeeee]">
       <div className="container flex justify-between items-center max-w-5xl mx-auto">
         <div className="flex gap-2 items-center">
           <img
