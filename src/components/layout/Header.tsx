@@ -33,7 +33,7 @@ function Header({ logo, flag }: Props) {
         <nav className="hidden md:flex gap-7">
           <Link href="#">About</Link>
           <Link href="#projects">Projects</Link>
-          <Link href="#">Contact</Link>
+          <Link href="#contact">Contact</Link>
         </nav>
 
         <div
@@ -64,9 +64,15 @@ function Header({ logo, flag }: Props) {
             </div>
           </div>
           <nav className="flex flex-col pl-3 mt-4 gap-3">
-            <Link href="#">About</Link>
-            <Link href="#projects">Projects</Link>
-            <Link href="#">Contact</Link>
+            <Link href="#" onClick={() => setIsNavOpen(!isNavOpen)}>
+              About
+            </Link>
+            <Link href="#projects" onClick={() => setIsNavOpen(!isNavOpen)}>
+              Projects
+            </Link>
+            <Link href="#contact" onClick={() => setIsNavOpen(!isNavOpen)}>
+              Contact
+            </Link>
           </nav>
         </div>
       </div>
