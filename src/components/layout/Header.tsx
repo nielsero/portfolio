@@ -45,7 +45,7 @@ function Header({ logo, flag }: Props) {
         <div
           className={
             isNavOpen
-              ? "fixed left-0 md:left-[-100%] top-0 w-full ease-in-out duration-500 py-4 px-2 bg-white"
+              ? "fixed left-0 md:left-[-100%] top-0 w-full ease-in-out duration-500 py-4 px-2 bg-white z-10"
               : "fixed left-[-100%] top-0 ease-in-out duration-500 py-4 px-2"
           }
         >
