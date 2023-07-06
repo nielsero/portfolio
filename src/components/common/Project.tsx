@@ -26,12 +26,15 @@ const Project = ({
         </p>
         <div className="flex gap-4 justify-center mt-3">
           <a
-            className="py-2 px-3 bg-sky-700 text-white rounded"
+            className="py-2 px-3 bg-sky-700 hover:bg-sky-600 text-white rounded"
             href={previewLink}
           >
             Preview
           </a>
-          <a className="py-2 px-3 bg-gray-300 rounded" href={githubLink}>
+          <a
+            className="py-2 px-3 bg-gray-300 hover:bg-gray-200 rounded"
+            href={githubLink}
+          >
             See code
           </a>
         </div>

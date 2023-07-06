@@ -23,7 +23,7 @@ function Hero({ heroImage }: Props) {
           <div className="flex justify-center md:justify-start mt-3">
             <a
               href="#contact"
-              className="border py-2 px-3 mt-3 mx-auto md:mx-0 rounded bg-sky-700 text-white"
+              className="border py-2 px-3 mt-3 mx-auto md:mx-0 rounded bg-sky-700 hover:bg-sky-600 text-white"
             >
               Get in touch
             </a>

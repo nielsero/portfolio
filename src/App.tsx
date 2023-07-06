@@ -39,7 +39,8 @@ const projects = [
     name: "Portfolio",
     src: portfolioSiteImage,
     alt: "Portfolio site",
-    description: "The place to showcase my skills and projects. (this site 😂)",
+    description:
+      "Perfect place to showcase my skills and projects. (this site 😂)",
     previewLink: "#",
     githubLink: "#"
   },

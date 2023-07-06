@@ -20,12 +20,12 @@ function Contact() {
               placeholder="Email"
             />
             <textarea
-              className="border p-2 h-40 border-black"
+              className="border p-2 h-60 border-black"
               placeholder="Message"
             ></textarea>
 
             <div>
-              <button className="py-2 px-5 bg-sky-700 text-white rounded">
+              <button className="py-2 px-5 bg-sky-700 hover:bg-sky-600 text-white rounded">
                 Send
               </button>
             </div>

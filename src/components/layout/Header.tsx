@@ -25,7 +25,7 @@ function Header({ logo, flag }: Props) {
           <img
             src={flag}
             alt="mozambique flag"
-            className="w-5 h-5 md:w-8 md:h-8"
+            className="w-5 h-5 md:w-8 md:h-8 hover:rotate-[360deg] transition duration-500 ease-in-out"
           />
         </div>
 
