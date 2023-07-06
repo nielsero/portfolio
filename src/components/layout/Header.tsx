@@ -13,13 +13,12 @@ function Header({ logo, flag }: Props) {
   return (
     <header className="w-full py-4 px-2 bg-[#eeeeee]">
       <div className="container flex justify-between items-center max-w-5xl mx-auto">
-        <div className="flex gap-2 items-center">
+        <div className="flex items-center">
           <img
             src={logo}
             alt="logo image of a black cat"
             className="w-8 h-8 md:w-10 md:h-10"
           />
-          <span className="font-bold text-2xl md:text-3xl">nielsero</span>
         </div>
 
         <div className="p-1 border-2 border-dashed rounded-full border-black">
@@ -57,13 +56,12 @@ function Header({ logo, flag }: Props) {
                 alt="logo image of a black cat"
                 className="w-8 h-8 md:w-10 md:h-10"
               />
-              <span className="font-bold text-2xl md:text-3xl">nielsero</span>
             </div>
             <div onClick={() => setIsNavOpen(!isNavOpen)}>
               <AiOutlineClose size={20} />
             </div>
           </div>
-          <nav className="flex flex-col pl-3 mt-4 gap-3">
+          <nav className="flex flex-col pl-1 mt-4 gap-3">
             <Link href="#" onClick={() => setIsNavOpen(!isNavOpen)}>
               About
             </Link>

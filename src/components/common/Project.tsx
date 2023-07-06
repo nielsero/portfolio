@@ -16,7 +16,7 @@ const Project = ({
   githubLink
 }: ProjectProps) => {
   return (
-    <div className="w-[95%] sm:w-[45%] lg:w-[30%] shadow rounded-b pb-3 bg-white">
+    <div className="w-[95%] sm:w-[45%] shadow rounded-b pb-3 bg-white">
       <img src={src} alt={alt} className="hover:opacity-80 cursor-pointer" />
 
       <div className="mt-2">
