@@ -16,12 +16,12 @@ function Header({ logo, flag }: Props) {
         <div className="flex items-center">
           <img
             src={logo}
-            alt="logo image of a black cat"
+            alt="logo image of the letter n"
             className="w-8 h-8 md:w-10 md:h-10"
           />
         </div>
 
-        <div className="p-1 border-2 border-dashed rounded-full border-black">
+        <div className="p-1 bg-white rounded-full border-black">
           <img
             src={flag}
             alt="mozambique flag"

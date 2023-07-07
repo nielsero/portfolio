@@ -21,7 +21,7 @@ const Project = ({
 
       <div className="mt-2">
         <h1 className="text-center text-xl font-bold">{name}</h1>
-        <p className="text-center text-sm text-gray-400 mt-2 px-3">
+        <p className="text-center text-sm text-gray-500 mt-2 px-3">
           {description}
         </p>
         <div className="flex gap-4 justify-center mt-3">
